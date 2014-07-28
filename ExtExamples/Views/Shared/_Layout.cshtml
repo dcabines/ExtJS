@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - David's Examples</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    @Html.Partial("Menu")
+    <hr />
+
+    @RenderBody()
+    <hr />
+
+    <footer>
+        <p>David's EXT Examples</p>
+    </footer>
+
+    @Scripts.Render("~/bundles/ext")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿body {
+    padding: 20px;
+    font-family: Arial;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid;
+}
+
+.main-menu li {
+    float: left;
+    margin: 0 1px;
+}
+
+    .main-menu li:first-child {
+        margin-left: 0;
+    }
+
+.main-menu a {
+    display: block;
+    padding: 5px;
+    background: grey;
+    color: white;
+    text-decoration: none;
+}
+
+    .main-menu a:hover {
+        text-decoration: underline;
+    }
