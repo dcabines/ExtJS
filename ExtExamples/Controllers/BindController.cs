@@ -6,13 +6,13 @@ using System.Web.Mvc;
 
 namespace ExtExamples.Controllers
 {
-    public class GridController : Controller
+    public class BindController : Controller
     {
-        public ActionResult Array() {
+        public ActionResult Index() {
             return View();
         }
 
-        public ActionResult Edit() {
+        public ActionResult Classes() {
             return View();
         }
     }

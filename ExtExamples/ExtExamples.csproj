@@ -124,6 +124,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\BindController.cs" />
     <Compile Include="Controllers\GridController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -434,8 +435,13 @@
     <Content Include="Content\images\default\window\right-corners.psd" />
     <Content Include="Content\images\default\window\top-bottom.psd" />
     <Content Include="Content\images\gray\window\left-corners.pspimage" />
+    <Content Include="Scripts\examples\binding\binding.js" />
+    <Content Include="Scripts\examples\binding\classes\BookDetail.js" />
+    <Content Include="Scripts\examples\binding\classes\BookGrid.js" />
+    <Content Include="Scripts\examples\binding\classes\BookMasterDetail.js" />
+    <Content Include="Scripts\examples\binding\classes\BookStore.js" />
     <Content Include="Scripts\examples\grid\array-grid.js" />
-    <Content Include="Scripts\examples\grid\binding-with-classes.js" />
+    <Content Include="Scripts\examples\binding\binding-with-classes.js" />
     <Content Include="Scripts\examples\grid\edit-grid.js" />
     <Content Include="Scripts\ext-all-debug.js" />
     <Content Include="Scripts\ext-base.js" />
@@ -463,7 +469,8 @@
     <Content Include="Views\Grid\Array.cshtml" />
     <Content Include="Views\Grid\Edit.cshtml" />
     <Content Include="Views\Shared\Menu.cshtml" />
-    <Content Include="Views\Grid\Binding.cshtml" />
+    <Content Include="Views\Bind\Index.cshtml" />
+    <Content Include="Views\Bind\Classes.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
